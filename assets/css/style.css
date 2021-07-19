@@ -26,7 +26,7 @@ body::before {
 }
 
 a {
-  color: #ff0000;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .subscribe .error-message {
   display: none;
-  color: #ed3c0d;
+  color: #D4088C;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -483,7 +483,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #D4088C;
+  background: #101340;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -491,7 +491,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #101340;
+  background: #D4088C;
 }
 
 @-webkit-keyframes animate-loading {

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>ComingSoon - Sparkplug</title>
+  <title>ComingSoon - SparkPlug</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -37,7 +37,7 @@
     <div class="container d-flex flex-column align-items-center">
 
       <h1>ComingSoon</h1>
-      <h2>We're working hard to give you the best experience with Sparkplug</h2>
+      <h2>We're working hard to give you the best experience with Spark Plug</h2>
       <div class="countdown d-flex justify-content-center" data-count="2021/10/7">
         <div>
           <h3>%d</h3>
@@ -59,7 +59,7 @@
 
       <div class="subscribe">
         <h4>Subscribe now to get the latest updates!</h4>
-        <form action="forms/notify.php" method="post" role="form" class="php-email-form">
+        <form method="post" aria-label="subscribe-form" role="form" class="php-email-form">
           <div class="subscribe-form">
             <input type="email" name="email"><input type="submit" value="Subscribe">
           </div>
@@ -89,24 +89,19 @@
 
         <div class="row content">
           <div class="col-lg-6">
-            <h2>Eum ipsam laborum deleniti velitena</h2>
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave</h3>
+            <h2>Spark Plug Organisation</h2>
+            <h3>Inspire tech Growth, Equity and Equality for all.</h3>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
+            <h4 class="text-bold">
+              Our Mision
+            </h4 >
             <ul>
-              <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li>
-              <li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</li>
+              <li><i class="bi bi-check"></i> Organise programs and events that will help individuals in technology connect with each other, celebrate their achievements, open them to growth opportunities, and help propel their career.</li>
+              <li><i class="bi bi-check"></i> Help connect organisations and companies to the right tech skills they need to take their companies to the next level.</li>
+              <li><i class="bi bi-check"></i> Create a more inclusive tech environment for technologists in Cameroon.</li>
+              <li><i class="bi bi-check"></i> Build a space for our children to have a positive global impact, build their own businesses and make Cameroon better with the help of technology!</li>
             </ul>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
           </div>
         </div>
 
@@ -130,19 +125,22 @@
                 <div class="col-lg-4 info">
                   <i class="bi bi-geo-alt"></i>
                   <h4>Location:</h4>
-                  <p>A108 Adam Street<br>New York, NY 535022</p>
+                  <p>Douala<br>Cameroon</p>
                 </div>
 
                 <div class="col-lg-4 info mt-4 mt-lg-0">
                   <i class="bi bi-envelope"></i>
                   <h4>Email:</h4>
-                  <p>info@example.com<br>contact@example.com</p>
+                  <p>
+                    <a href="mailto:info@sparkplug.org">info@sparkplug.org</a><br>
+                    <a href="mailto:contact@sparkplug.org">contact@sparkplug.org</a>
+                  </p>
                 </div>
 
                 <div class="col-lg-4 info mt-4 mt-lg-0">
                   <i class="bi bi-phone"></i>
                   <h4>Call:</h4>
-                  <p>+1 5589 55488 51<br>+1 5589 22475 14</p>
+                  <p><a href="tel:+237650217832">+237 650 217 832</a><br><a href="tel:+237675007995">+237 675 007 995</a></p>
                 </div>
               </div>
             </div>
@@ -153,13 +151,13 @@
 
         <div class="row justify-content-center">
           <div class="col-lg-10">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form aria-label="contact-form" action="php/contact-form.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="c-email" id="c-email" placeholder="Your Email" required> 
                 </div>
               </div>
               <div class="form-group mt-3">
@@ -188,14 +186,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>ComingSoon</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/comingsoon-free-html-bootstrap-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        &copy; Copyright <strong><span>Spark Plug</span></strong>. All Rights Reserved
       </div>
     </div>
   </footer><!-- End #footer -->
