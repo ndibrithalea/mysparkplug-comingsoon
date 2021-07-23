@@ -1,7 +1,4 @@
-<?php
-
-require 'email-injection-check.php';
- 
+<?php 
 // define variables and set to empty values
 $name = $email = $gender = $message = $subject = $website = "";
 $state = true;
@@ -9,7 +6,8 @@ $state = true;
 if(checkInfoSent()){
   $to = 'did697400@gmail.com';
   $headers = "From: $email";
-  echo mail($to,$_POST['subject'],$_POST['message'],$headers);
+  mail($to,$_POST['subject'],$_POST['message'],$headers);
+  echo '<script>window.location = "https://mysparkplug.org/" </script>';
 }else{
   echo checkInfoSent();
   echo "There's an error in your form. Check all user input or enable JS to know more";
@@ -34,17 +32,10 @@ function checkInfoSent(){
     } else {
       $email = test_input($_POST["c-email"]);
       // Check if email is valid
-      if(IsInjected($_POST["c-email"])){
-         // check if e-mail address is well-formed
-        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-          echo "Invalid email format";
-          $state = false;
-        }
-      }else{
-        echo "Be warned!";
+      if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        echo "Invalid email format";
         $state = false;
-      }
-     
+      }    
     }
   
     if (empty($_POST["message"])) {
@@ -54,7 +45,7 @@ function checkInfoSent(){
       $message = test_input($_POST["message"]);
     }
   }
-  return $state;
+  return $state = true;
 }
 
 function test_input($data) {
