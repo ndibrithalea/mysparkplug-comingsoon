@@ -36,7 +36,7 @@
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex flex-column align-items-center">
 
-      <h1>ComingSoon</h1>
+      <h1>Coming Soon</h1>
       <h2>We're working hard to give you the best experience with Spark Plug</h2>
       <div class="countdown d-flex justify-content-center" data-count="2021/10/7">
         <div>
@@ -59,9 +59,9 @@
 
       <div class="subscribe">
         <h4>Subscribe now to get the latest updates!</h4>
-        <form method="post" aria-label="subscribe-form" role="form" class="php-email-form">
+        <form method="post" aria-label="subscribe-form" action="php/subscribe-form.php" role="form" class="php-email-form">
           <div class="subscribe-form">
-            <input type="email" name="email"><input type="submit" value="Subscribe">
+            <input type="email" name="email" required><input type="submit" value="Subscribe">
           </div>
           <div class="mt-2">
             <div class="loading">Loading</div>
@@ -89,8 +89,10 @@
 
         <div class="row content">
           <div class="col-lg-6">
-            <h2>Spark Plug Organisation</h2>
-            <h3>Inspire tech Growth, Equity and Equality for all.</h3>
+            <h2><img src="assets/img/logo.png" height="90" alt="">Spark Plug Organisation</h2>
+            <h3>Inspire tech Growth, Hospitality and Justice for all.</h3>
+            <div></div>
+
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <h4 class="text-bold">

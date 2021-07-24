@@ -5,7 +5,8 @@ $state = true;
 
 if(checkInfoSent()){
   $to = 'did697400@gmail.com';
-  $headers = "From: $email";
+  $headers = "From: $email\r\n";
+  $headers .= "Cc: contact@mysparkplug.org";
   mail($to,$_POST['subject'],$_POST['message'],$headers);
   echo '<script>window.location = "https://mysparkplug.org/" </script>';
 }else{
